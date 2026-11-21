@@ -8,18 +8,18 @@ Spring Boot application integrates `minio` quickly, which is a high performance 
 
 ```xml
     <dependency>
-        <groupId>cn.unikue.springstarter</groupId>
+        <groupId>com.jiovan.spring.starter</groupId>
         <artifactId>minio-spring-boot-starter</artifactId>
         <version>LATEST</version>
     </dependency>
 ```
 
-> By default, this starter will auto take effect, you can turn it off by `spring.minio.enabled = false`
+> By default, this starter will auto take effect, you can turn it off by `jiovan.minio.enabled = false`
 
-- Configure Spring Boot `application.yml` with prefix `spring.minio`
+- Configure Spring Boot `application.yml` with prefix `jiovan.minio`
 
 ```yml
-spring:
+jiovan:
     minio:
         host: '127.0.0.1'
         port: 9000
@@ -33,7 +33,7 @@ spring:
 
 ## Document
 
-- Github: https://github.com/unikueltd/minio-spring-boot-starter
+- Github: https://github.com/jiovan-labs/minio-spring-boot-starter
 - Minio homepage: https://min.io
 - Minio github: https://github.com/minio/minio
 
@@ -49,12 +49,12 @@ See the `NOTICE.txt` file for required notices and attributions.
 
 ## Donation
 
-You like this package? Then [donate to us](https://unikue.cn/donation) to support the development.
+You like this package? Then [donate to us](https://jiovan.com/donation) to support the development.
 
 ## Copyright
 
-Beijing Unikue Network Technology Ltd.
+Beijing Jiovan Technology Ltd.
 
 ## Website
 
-- Unikue: https://unikue.cn
+- Jiovan: https://jiovan.com
